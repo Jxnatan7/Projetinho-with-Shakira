@@ -1,12 +1,15 @@
 function calcularMatriz() {
+ 
+const valoresDeXis = [3, 21, 2]
+const valoresDeYpslon = [4, 3, 4]
 
-const xis = 3
-const x1 = 21
-const x2 = 2
+const xis = Number(valoresDeXis.slice(0, 1))
+const x1 = Number(valoresDeXis.slice(1, 2))
+const x2 = Number(valoresDeXis.slice(2, 3))
 
-const ypslon = 4
-const y1 = 3
-const y2 = 4
+const ypslon = Number(valoresDeYpslon.slice(0,1))
+const y1 = Number(valoresDeYpslon.slice(1, 2))
+const y2 = Number(valoresDeYpslon.slice(2, 3))
 
 const a1 = xis
 const a2 = x1
